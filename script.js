@@ -31,3 +31,11 @@ function addEntry() {
 
 targetInputContainer.insertAdjacentHTML("beforeend", HTMLString);
 addEntryButton.addEventListener("click", addEntry);
+
+function getCaloriesFromInput(list) {
+  let calories = 0;
+  const invalidInputMatch = isInvalidInput(currVal);
+  for (conts item of list) {
+    const currVal = cleanInputString(item.value);
+  }
+}
